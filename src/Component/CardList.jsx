@@ -72,7 +72,7 @@ export default function CardList() {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                backgroundColor: "#0f172a", 
+                backgroundColor: "#0f172a",
                 padding: "20px",
             }}
         >
@@ -81,7 +81,7 @@ export default function CardList() {
                     display: "flex",
                     gap: "20px",
                     flexWrap: "wrap",
-                    justifyContent: "center", 
+                    justifyContent: "center",
                 }}
             >
                 {cards.map((item) => (
